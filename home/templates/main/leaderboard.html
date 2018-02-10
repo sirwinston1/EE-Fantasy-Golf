@@ -1,0 +1,41 @@
+{% extends 'main/base.html' %}
+{% load render_table from django_tables2 %}
+
+{% block welcome %}
+    <div class = "main-welcome">
+      <h2>Welcome  </h2>
+    </div>
+
+
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="post">
+      <h1> <strong>Leaderboard</strong></h1>
+    </div>
+
+      <div>
+        <table class = "leaderboard" >
+          <tr>
+            <th> Team </th>
+            <th> Winnings </th>
+          </tr>
+
+          <tr>
+            <td>{ </td>
+            <td> </td>
+
+          </tr>
+        </table>
+      </div>
+
+
+
+      <h3><a href=""> clickly me</a></h3>
+      <p> </p>
+
+
+
+{% endblock %}
